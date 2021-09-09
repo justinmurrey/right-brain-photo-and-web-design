@@ -374,8 +374,11 @@ background-color:lightgray;
   align-self: center;
   font-family: Arial, Helvetica, sans-serif;
   margin-right: 70px;
-   
-}
+  }  
+  .logo-box{
+    display: none;
+  }
+
 
   
   
@@ -390,7 +393,12 @@ background-color:lightgray;
     justify-content:flex-end;
     align-self: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-right: 70px;}
+    margin-right: 70px;
+  }
+  .logo-box{
+    display: flex;
+  } 
+
 
     .site-nav ul{
       display: flex;
