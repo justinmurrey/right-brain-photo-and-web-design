@@ -383,7 +383,7 @@ background-color:lightgray;
       padding: 0 20px;
   }
   .form-control{
-    width: 50%;
+    width: 100px;
   }
   #quick-links{
     display: flex;
