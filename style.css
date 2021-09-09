@@ -121,6 +121,7 @@ background-color:lightgray;
   }
   .social-img{
     border-radius: 100px;
+    padding: auto;
   }
   .social {
     justify-self: end;
@@ -168,26 +169,7 @@ background-color:lightgray;
     padding: 15px;
     margin: 10px;
   }
-  #logo-box2 {
-    width: 110px;
-  }
-  
-  .offcanvas {
-    border: 2px solid;
-  }
-  
-  #offcanvasRightLabel {
-    justify-items: center;
-  }
-  .offcanvas-body {
-    background-color: lavender;
-    border: 1px solid;
-  }
-  .offcanvas-header {
-    background-color: lightgrey;
-    border: 1px solid;
-  }
-  
+ 
   #mc_embed_signup {
     background:#fff; 
     clear: left;
