@@ -121,7 +121,7 @@ background-color:lightgray;
   }
   .social-img{
     border-radius: 100px;
-    padding: auto;
+   margin-bottom: 5px;
   }
   .social {
     justify-self: end;
