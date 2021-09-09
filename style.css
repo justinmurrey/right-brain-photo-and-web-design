@@ -377,15 +377,13 @@ background-color:lightgray;
   .logo-box{
     display: none;
   }
-
-
-  
-  
-  /* small tablet styles */
+ /* small tablet styles */
   @media screen and (min-width: 992px){
     .site-nav{
       padding: 0 20px;
-     
+  }
+  .form-control{
+    width: 50%;
   }
   #quick-links{
     display: flex;
@@ -416,7 +414,7 @@ background-color:lightgray;
       padding: 0 20px;
     }
   
-    
+
     body{
       font-size: 18px;
     }
