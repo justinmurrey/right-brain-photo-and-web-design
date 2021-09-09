@@ -3,7 +3,9 @@
     border: 2px darkgray solid;
     text-align: center;
   }
-  
+  #jmbtn:hover{
+background-color:lightgray;
+  }
   body {
     background-color: white;
     font-family: "Comic Sans MS", serif, sans-serif;
