@@ -389,7 +389,9 @@ background-color:lightgray;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 70px;
   }
-
+.logo-box{
+      display: flex;}
+      
     .site-nav ul{
       display: flex;
       align-self: center;
@@ -406,7 +408,7 @@ background-color:lightgray;
     .site-nav{
       padding: 0 20px;
     }
-  
+    
 
     body{
       font-size: 18px;
