@@ -1,434 +1,430 @@
 #jmbtn {
-    margin: 5px !important;
-    border: 2px darkgray solid;
-    text-align: center;
-  }
-  #jmbtn:hover{
-background-color:lightgray;
-  }
-  body {
-    background-color: white;
-    font-family: "Comic Sans MS", serif, sans-serif;
-    font-size: 1.1em;
-  }
-  
-  html,
-  body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-  }
-  #content {
-    margin: 0 auto;
-    font-family: sans-serif;
-    background-color: white;
-  }
-  header {
-    align-items: center;
-    display: grid;
-    grid-template-columns: 110px auto;
-    background-color: #f8f9fa !important;
-    border-bottom: 4px solid;
-  }
-  .logo-box {
-    width: 110px;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: rgb(164, 51, 18);
-    text-align: center;
-    font-family: "Brush Script MT", cursive;
-    font-size: 2em;
-    padding: 10px;
-    line-height: 1em;
-  }
-  p {
-    padding: 10px;
-    font-size: 23px;
-    line-height: 1.3em;
-    color: rgb(164, 51, 18);
-    font-size: 1.1em;
-  }
-  .leftcol,
-  .rightcol {
-    width: 48%;
-    flex: 1 0 15em;
-    margin: 0.5em;
-  }
-  #sec1,
-  #sec2 {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-  }
-  
-  footer {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-  }
-  #sec2 {
-    background-color: white;
-  }
-  #sec3 {
-    text-align: center;
-    margin: 0%;
-  }
-  .pspec {
-    font-size: 22px;
-    font-style: italic;
-    color: #a43312;
-  }
-  footer {
-    background-color: lightgrey;
-    border-top: 5px solid black;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  img {
-    max-width: 100%;
-  }
-  #banner {
-    max-width: 100%;
-  }
-  #img1,
-  #img2 {
-    width: 450px;
-    /*height:75;*/
-    box-shadow: 8px 8px 8px #004e4e;
-    border-radius: 10px;
-  }
-  #info {
-    color: #a43312;
-    font-size: 20;
-    padding: 10px;
-  }
-  .zoomin {
-    display: flex;
-    /* width:75px;
+  margin: 5px !important;
+  border: 2px darkgray solid;
+  text-align: center;
+}
+#jmbtn:hover {
+  background-color: lightgray;
+}
+body {
+  background-color: white;
+  font-family: "Comic Sans MS", serif, sans-serif;
+  font-size: 1.1em;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+#content {
+  margin: 0 auto;
+  font-family: sans-serif;
+  background-color: white;
+}
+header {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 110px auto;
+  background-color: #f8f9fa !important;
+  border-bottom: 4px solid;
+}
+.logo-box {
+  width: 110px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(164, 51, 18);
+  text-align: center;
+  font-family: "Brush Script MT", cursive;
+  font-size: 2em;
+  padding: 10px;
+  line-height: 1em;
+}
+p {
+  padding: 10px;
+  font-size: 23px;
+  line-height: 1.3em;
+  color: rgb(164, 51, 18);
+  font-size: 1.1em;
+}
+.leftcol,
+.rightcol {
+  width: 48%;
+  flex: 1 0 15em;
+  margin: 0.5em;
+}
+#sec1,
+#sec2 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+#sec2 {
+  background-color: white;
+}
+#sec3 {
+  text-align: center;
+  margin: 0%;
+}
+.pspec {
+  font-size: 22px;
+  font-style: italic;
+  color: #a43312;
+}
+footer {
+  background-color: lightgrey;
+  border-top: 5px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+img {
+  max-width: 100%;
+}
+#banner {
+  max-width: 100%;
+}
+#img1,
+#img2 {
+  width: 450px;
+  /*height:75;*/
+  box-shadow: 8px 8px 8px #004e4e;
+  border-radius: 10px;
+}
+#info {
+  color: #a43312;
+  font-size: 20;
+  padding: 10px;
+}
+.zoomin {
+  display: flex;
+  /* width:75px;
     -weblkit-transition: all 2s ease;
     -moz-transition: all 2s ease;
    -ms-transition: all 2s ease;*/
-  }
-  .social-img{
-    border-radius: 100px;
-   margin-bottom: 5px;
-  }
-  .social {
-    justify-self: end;
-    margin: 20px;
-    border-radius: 10px;
-    margin-bottom: 5px
-  }
-  .zoomin img:hover {
-    width: 100px;
-    height: 100px;
-    /*box-shadow:8px 8px 8px #004e4e;*/
-  }
-  
-  /*.home-paragraph-3-1 {
+}
+.social-img {
+  border-radius: 100px;
+  margin-bottom: 5px;
+}
+.social {
+  justify-self: end;
+  margin: 20px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.zoomin img:hover {
+  width: 100px;
+  height: 100px;
+  /*box-shadow:8px 8px 8px #004e4e;*/
+}
+
+/*.home-paragraph-3-1 {
   border-top: 5px solid black;
   }
   */
-  .home-paragraph-3 {
-    margin: auto 0%;
+.home-paragraph-3 {
+  margin: auto 0%;
+}
+#copyright {
+  padding: 5px;
+  display: flex;
+  justify-self: start;
+}
+@media screen and (max-width: 960px) {
+  .home-grid,
+  nav ul {
+    display: block;
   }
-  #copyright {
-    padding: 5px;
-    display: flex;
-    justify-self: start;
+}
+@media screen and (max-width: 960px) {
+  .content nav ul {
+    display: block;
   }
-  @media screen and (max-width: 960px) {
-    .home-grid,
-    nav ul {
-      display: block;
-    }
+}
+@media screen and (min-width: 300px) {
+  .content nav ul nav ul {
+    display: block;
+    margin-left: 0;
   }
-  @media screen and (max-width: 960px) {
-    .content nav ul {
-      display: block;
-    }
-  }
-  @media screen and (min-width: 300px) {
-    .content nav ul nav ul {
-      display: block;
-      margin-left: 0;
-    }
-  }
-  
-  .contact-img {
-    width: 405px;
-    padding: 15px;
-    margin: 10px;
-  }
- 
-  #mc_embed_signup {
-    background:#fff; 
-    clear: left;
-    font: 14px Helvetica, Arial, sans-serif;
-    margin: 0;
-  }
-  
-  
-  .indicates-required {
-    text-align: right;
-    color: red;
-  }
-  
-  /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+}
+
+.contact-img {
+  width: 405px;
+  padding: 15px;
+  margin: 10px;
+}
+
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.indicates-required {
+  text-align: right;
+  color: red;
+}
+
+/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
          We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-  
-  /* Contact style*/
-   legend{
-     padding: 10px;
-     font-size: 18px;
-     letter-spacing: 0.1em;
-     align-items: center;
-     text-align: center;
-    }
-    /* basic style*/
-    input[type="text"],
-    input[type="email"],
-    input[type="message"] {
-      display: block;
-      margin-bottom: 10px;
-      padding: 10px 10px 10px 50px;
-      /*border: 0px;*/
-      border-radius: 4px;
-      color: rgb(164, 51, 18);
-  }
-    /*side img place */
-    input[type="text"] {
-      background:url(img/person.svg) no-repeat;
-      float: left;
-      clear: both;
-    }
-    input[type="email"] {
-      background:url(img/mail.svg)
-      no-repeat;
-      /*float: left;*/
-      clear: both;
-    }
-    input[type="message"] {
-      background:url(img/comment.svg)
-      no-repeat;
-      float: left;
-      clear: both;
-    }
-  /*side img style */
-  input[type="text"] {
-   background-position: 7px 8px;
-  }
-  input[type="email"] {
-    background-position: 7px 8px;
-  }
-  input[type="message"] {
-    background-position: 7px 8px;
-  }
-  /* 5 - SELECT BOXES */
-  select{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -o-appearance: none;
-    -ms-appearance: none;
-    appearance: none;
-  
-    display: block;
-    margin: 30px 0px;
-    padding: 10px 50px 10px 10px;
-    color: #a43312;
-     background:url(img/select.png)
-      no-repeat 95% center;
-      border-radius: 4px ;
-      border: 2px solid green;
-      width: 280px;
-  
-    }
-  option{ margin-bottom: 20px;}
-  
-  #email-btn {
-    background-color: #b61111;
-    padding: 15px;
-    color:#FFF;
-    font-size: 20px;
-    letter-spacing: 0.1em;
-    border-radius: 4px;
-    border: 0px;
-    box-shadow: 1px 3px 5px rgba(0, 0, 0,  0.5);
-   width: 100%;
-    margin: 5px;
-    }
-  
-  /* 6 - INPUT VALIDATION STYLES */
-  /* side img */
-  input[type="text"]:valid
-   {
-    border: 2px solid green;
-    background:url(img/check-circle.svg)
-    no-repeat
-   }
-   input[type="email"]:valid {
-    border: 2px solid green;
-    background:url(img/check-circle.svg)
-    no-repeat
-   }
-   input[type="message"]:valid {
-    border: 2px solid green;
-    background:url(img/check-circle.svg)
-    no-repeat
-   }
-  /*side img position */
-   input[type="text"]:valid{
-    background-position: 7px 8px;
-  }
-   
-   input[type="email"]:valid{
-    background-position: 7px 8px;
-  }
-   
-   input[type="message"]:valid {
-    background-position: 7px 8px;
-   }
-   /* tick*/
-   input[type="text"]:valid + .tick {
-    background:url(img/tick.png) center;
-    background:url(img/tick.png) center;
-    background-size: 100%;
-    display: block;
-    width: 20px;
-    height: 20px;
-    float: left;
-    margin: 10px;
-  }
-   input[type="email"]:valid + .tick  {
-    background:url(img/tick.png) center;
-    background:url(img/tick.png) center;
-    background-size: 100%;
-    display: block;
-    width: 20px;
-    height: 20px;
-    float: left;
-    margin: 10px;
-  }
-   
-   input[type="message"]:valid + .tick{
-    background:url(img/tick.png) center;
-    background-size: 100%;
-    display: block;
-    width: 20px;
-    height: 20px;
-    float: left;
-    margin: 10px;
-   }
-   #question{
-    align-items: center;
-     text-align: center;
-  }
-  .e-mail{
-    margin: 5px;
-    }
-  
-  .button{
+
+/* Contact style*/
+legend {
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  align-items: center;
+  text-align: center;
+}
+/* basic style*/
+input[type="text"],
+input[type="email"],
+input[type="message"] {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 50px;
+  /*border: 0px;*/
+  border-radius: 4px;
+  color: rgb(164, 51, 18);
+}
+/*side img place */
+input[type="text"] {
+  background: url(img/person.svg) no-repeat;
+  float: left;
+  clear: both;
+}
+input[type="email"] {
+  background: url(img/mail.svg) no-repeat;
+  /*float: left;*/
+  clear: both;
+}
+input[type="message"] {
+  background: url(img/comment.svg) no-repeat;
+  float: left;
+  clear: both;
+}
+/*side img style */
+input[type="text"] {
+  background-position: 7px 8px;
+}
+input[type="email"] {
+  background-position: 7px 8px;
+}
+input[type="message"] {
+  background-position: 7px 8px;
+}
+/* 5 - SELECT BOXES */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+
+  display: block;
+  margin: 30px 0px;
+  padding: 10px 50px 10px 10px;
+  color: #a43312;
+  background: url(img/select.png) no-repeat 95% center;
+  border-radius: 4px;
+  border: 2px solid green;
+  width: 280px;
+}
+option {
+  margin-bottom: 20px;
+}
+
+#email-btn {
+  background-color: #b61111;
+  padding: 15px;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  border-radius: 4px;
+  border: 0px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  margin: 5px;
+}
+
+/* 6 - INPUT VALIDATION STYLES */
+/* side img */
+input[type="text"]:valid {
+  border: 2px solid green;
+  background: url(img/check-circle.svg) no-repeat;
+}
+input[type="email"]:valid {
+  border: 2px solid green;
+  background: url(img/check-circle.svg) no-repeat;
+}
+input[type="message"]:valid {
+  border: 2px solid green;
+  background: url(img/check-circle.svg) no-repeat;
+}
+/*side img position */
+input[type="text"]:valid {
+  background-position: 7px 8px;
+}
+
+input[type="email"]:valid {
+  background-position: 7px 8px;
+}
+
+input[type="message"]:valid {
+  background-position: 7px 8px;
+}
+/* tick*/
+input[type="text"]:valid + .tick {
+  background: url(img/tick.png) center;
+  background: url(img/tick.png) center;
+  background-size: 100%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin: 10px;
+}
+input[type="email"]:valid + .tick {
+  background: url(img/tick.png) center;
+  background: url(img/tick.png) center;
+  background-size: 100%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin: 10px;
+}
+
+input[type="message"]:valid + .tick {
+  background: url(img/tick.png) center;
+  background-size: 100%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin: 10px;
+}
+#question {
+  align-items: center;
+  text-align: center;
+}
+.e-mail {
+  margin: 5px;
+}
+
+.button {
   margin-left: 10px;
   width: 36%;
   padding: 10px;
-  }
-  #subscribe-offers{
-    margin-left: 10px;
-  }
-  body,p,a,ul,li{
-   /* margin: 0;
+}
+#subscribe-offers {
+  margin-left: 10px;
+}
+body,
+p,
+a,
+ul,
+li {
+  /* margin: 0;
     padding: 0;*/
-    text-decoration: none;
-  }
-  li{
-    list-style-type: none;
-  }
-  /* mobile styles */
-  .site-nav{
-    margin: 0 20px;
-  }
-  .site-nav h1{
-    padding-bottom: 10px;
-    border-bottom: 3px solid;
-    display: inline-block;
-  
-  }
-  .site-nav ul {
-    display: none ;
-  }
-  
-  #quick-links{
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+/* mobile styles */
+.site-nav {
+  margin: 0 20px;
+}
+.site-nav h1 {
+  padding-bottom: 10px;
+  border-bottom: 3px solid;
+  display: inline-block;
+}
+.site-nav ul {
   display: none;
-  justify-content:flex-end;
+}
+
+#quick-links {
+  display: none;
+  justify-content: flex-end;
   align-self: center;
   font-family: Arial, Helvetica, sans-serif;
   margin-right: 70px;
-  }  
-  .logo-box{
-    display: none;
+}
+.logo-box {
+  display: none;
+}
+/* small tablet styles */
+@media screen and (min-width: 992px) {
+  .site-nav {
+    padding: 0 20px;
   }
- /* small tablet styles */
-  @media screen and (min-width: 992px){
-    .site-nav{
-      padding: 0 20px;
-  }
-  #quick-links{
+  #quick-links {
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     align-self: center;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 70px;
   }
-.logo-box{
-      display: flex;}
-      
-    .site-nav ul{
-      display: flex;
-      align-self: center;
-      justify-content: flex-end;
-      text-decoration: none;
+  .logo-box {
+    display: flex;
   }
-    }
-    .site-nav li{
-      margin-left: 20px;
-  }
-  
-  /* large tablet & laptop styles */
-  @media screen and (min-width: 960px){
-    .site-nav{
-      padding: 0 20px;
-    }
-    
 
-    body{
-      font-size: 18px;
-    }
+  .site-nav ul {
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+    text-decoration: none;
   }
-  /* desktop styles */
-  @media screen and (min-width: 1200px){
-  
-    body{
-      font-size: 20px;
-    }
-  
+}
+.site-nav li {
+  margin-left: 20px;
+}
+
+/* large tablet & laptop styles */
+@media screen and (min-width: 960px) {
+  .site-nav {
+    padding: 0 20px;
   }
-  #staticBackdropLabel{
-    font-family: Arial, Helvetica, sans-serif;
-   justify-content: center;
+
+  body {
+    font-size: 18px;
   }
-  #t-tittle,#b-tittle {
+}
+/* desktop styles */
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+}
+#staticBackdropLabel {
   font-family: Arial, Helvetica, sans-serif;
-  }
-  .bi-calendar-month-fill, .bi-person-circle {
-    margin-right: 4px;
-  }
+  justify-content: center;
+}
+#t-tittle,
+#b-tittle {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bi-calendar-month-fill,
+.bi-person-circle {
+  margin-right: 4px;
+}
