@@ -389,11 +389,7 @@ background-color:lightgray;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 70px;
   }
-  
-   
-  .d-flex{
-    display:flex;
-  }
+
     .site-nav ul{
       display: flex;
       align-self: center;
