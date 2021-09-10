@@ -429,4 +429,6 @@ background-color:lightgray;
   #t-tittle,#b-tittle {
   font-family: Arial, Helvetica, sans-serif;
   }
-  
+  .bi-calendar-month-fill, .bi-person-circle {
+    margin-right: 4px;
+  }
