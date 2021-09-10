@@ -366,9 +366,7 @@ background-color:lightgray;
   .site-nav ul {
     display: none ;
   }
-  .d-flex{
-    display:none; 
-  }
+  
   #quick-links{
   display: none;
   justify-content:flex-end;
@@ -391,12 +389,7 @@ background-color:lightgray;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 70px;
   }
-  .logo-box{
-    display: flex;
-  } 
-  .d-flex{
-    display:flex;
-  }
+
     .site-nav ul{
       display: flex;
       align-self: center;
