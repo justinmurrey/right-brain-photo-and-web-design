@@ -431,3 +431,22 @@ li {
 .until{
   margin: 25px;
   max-width: 500px;}
+
+  .modal-body{
+    height: 350px;
+    overflow: hidden;
+  }
+  .modal-body:hover{
+    overflow-y: auto;
+  }
+  
+  }
+  .modal-footer{
+    background-color: grey;
+    border-top: 5px solid black;
+  }
+  .fade{
+    opacity: 1;
+    -webkit-transaction:opacity 1s linear;
+    -moz-transition:opacity 1s linear;
+  }
