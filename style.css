@@ -280,6 +280,7 @@ input[type="message"]:valid {
   border: 2px solid green;
   background: url(img/check-circle.svg) no-repeat;
 }
+
 /*side img position */
 input[type="text"]:valid {
   background-position: 7px 8px;
@@ -373,7 +374,9 @@ li {
 }
 .logo-box {
   display: none;
-}
+} 
+
+
 /* small tablet styles */
 @media screen and (min-width: 992px) {
   .site-nav {
@@ -434,7 +437,7 @@ li {
   max-width: 500px;}
 
   .modal-header{
-    background-color:#f8f9fa!important; ;
+    background-color:#f8f9fa!important;
   }
   
   .modal-body{
@@ -450,7 +453,7 @@ li {
     -webkit-transaction:opacity 1s linear;
   }
   .elfsight-app-ad2ba947-e85f-4d7a-b742-944f2061faa4{
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 
   }
   .big-deal{
