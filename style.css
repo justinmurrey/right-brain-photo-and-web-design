@@ -29,9 +29,10 @@ header {
   align-items: center;
   display: grid;
   grid-template-columns: 110px auto;
-  background-color: #f8f9fa !important;
+  background-color:#f8f9fa!important; ;
   border-bottom: 4px solid;
 }
+
 .logo-box {
   width: 110px;
 }
@@ -432,6 +433,10 @@ li {
   margin: 25px;
   max-width: 500px;}
 
+  .modal-header{
+    background-color:#f8f9fa!important; ;
+  }
+  
   .modal-body{
     height: 350px;
     overflow: hidden;
@@ -440,13 +445,15 @@ li {
     overflow-y: auto;
   }
   
-  }
-  .modal-footer{
-    background-color: grey;
-    border-top: 5px solid black;
-  }
   .fade{
     opacity: 1;
     -webkit-transaction:opacity 1s linear;
-    -moz-transition:opacity 1s linear;
+  }
+  .elfsight-app-ad2ba947-e85f-4d7a-b742-944f2061faa4{
+    margin-bottom: 60px;
+
+  }
+  .big-deal{
+    font-weight: bold;
+    text-align: center;margin: 0,auto;
   }
