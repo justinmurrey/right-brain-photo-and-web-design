@@ -1,3 +1,9 @@
+body {
+  background-color: white;
+  font-family: "Comic Sans MS", serif, sans-serif;
+  font-size: 1.1em;
+}
+
 #jmbtn {
   margin: 5px !important;
   border: 2px darkgray solid;
@@ -6,11 +12,7 @@
 #jmbtn:hover {
   background-color: lightgray;
 }
-body {
-  background-color: white;
-  font-family: "Comic Sans MS", serif, sans-serif;
-  font-size: 1.1em;
-}
+
 
 html,
 body {
@@ -108,18 +110,7 @@ img {
   box-shadow: 8px 8px 8px #004e4e;
   border-radius: 10px;
 }
-#info {
-  color: #a43312;
-  font-size: 20;
-  padding: 10px;
-}
-.zoomin {
-  display: flex;
-  /* width:75px;
-    -weblkit-transition: all 2s ease;
-    -moz-transition: all 2s ease;
-   -ms-transition: all 2s ease;*/
-}
+
 .social-img {
   border-radius: 100px;
   margin-bottom: 5px;
@@ -129,11 +120,6 @@ img {
   margin: 20px;
   border-radius: 10px;
   margin-bottom: 5px;
-}
-.zoomin img:hover {
-  width: 100px;
-  height: 100px;
-  /*box-shadow:8px 8px 8px #004e4e;*/
 }
 
 /*.home-paragraph-3-1 {
@@ -179,151 +165,7 @@ img {
   margin: 0;
 }
 
-.indicates-required {
-  text-align: right;
-  color: red;
-}
 
-/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-         We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-
-/* Contact style*/
-legend {
-  padding: 10px;
-  font-size: 18px;
-  letter-spacing: 0.1em;
-  align-items: center;
-  text-align: center;
-}
-/* basic style*/
-input[type="text"],
-input[type="email"],
-input[type="message"] {
-  display: block;
-  margin-bottom: 10px;
-  padding: 10px 10px 10px 50px;
-  /*border: 0px;*/
-  border-radius: 4px;
-  color: rgb(164, 51, 18);
-}
-/*side img place */
-input[type="text"] {
-  background: url(img/person.svg) no-repeat;
-  float: left;
-  clear: both;
-}
-input[type="email"] {
-  background: url(img/mail.svg) no-repeat;
-  /*float: left;*/
-  clear: both;
-}
-input[type="message"] {
-  background: url(img/comment.svg) no-repeat;
-  float: left;
-  clear: both;
-}
-/*side img style */
-input[type="text"] {
-  background-position: 7px 8px;
-}
-input[type="email"] {
-  background-position: 7px 8px;
-}
-input[type="message"] {
-  background-position: 7px 8px;
-}
-/* 5 - SELECT BOXES */
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -o-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
-
-  display: block;
-  margin: 30px 0px;
-  padding: 10px 50px 10px 10px;
-  color: #a43312;
-  background: url(img/select.png) no-repeat 95% center;
-  border-radius: 4px;
-  border: 2px solid green;
-  width: 280px;
-}
-option {
-  margin-bottom: 20px;
-}
-
-#email-btn {
-  background-color: #b61111;
-  padding: 15px;
-  color: #fff;
-  font-size: 20px;
-  letter-spacing: 0.1em;
-  border-radius: 4px;
-  border: 0px;
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
-  width: 100%;
-  margin: 5px;
-}
-
-/* 6 - INPUT VALIDATION STYLES */
-/* side img */
-input[type="text"]:valid {
-  border: 2px solid green;
-  background: url(img/check-circle.svg) no-repeat;
-}
-input[type="email"]:valid {
-  border: 2px solid green;
-  background: url(img/check-circle.svg) no-repeat;
-}
-input[type="message"]:valid {
-  border: 2px solid green;
-  background: url(img/check-circle.svg) no-repeat;
-}
-
-/*side img position */
-input[type="text"]:valid {
-  background-position: 7px 8px;
-}
-
-input[type="email"]:valid {
-  background-position: 7px 8px;
-}
-
-input[type="message"]:valid {
-  background-position: 7px 8px;
-}
-/* tick*/
-input[type="text"]:valid + .tick {
-  background: url(img/tick.png) center;
-  background: url(img/tick.png) center;
-  background-size: 100%;
-  display: block;
-  width: 20px;
-  height: 20px;
-  float: left;
-  margin: 10px;
-}
-input[type="email"]:valid + .tick {
-  background: url(img/tick.png) center;
-  background: url(img/tick.png) center;
-  background-size: 100%;
-  display: block;
-  width: 20px;
-  height: 20px;
-  float: left;
-  margin: 10px;
-}
-
-input[type="message"]:valid + .tick {
-  background: url(img/tick.png) center;
-  background-size: 100%;
-  display: block;
-  width: 20px;
-  height: 20px;
-  float: left;
-  margin: 10px;
-}
 #question {
   align-items: center;
   text-align: center;
@@ -375,7 +217,6 @@ li {
 .logo-box {
   display: none;
 } 
-
 
 /* small tablet styles */
 @media screen and (min-width: 992px) {
@@ -454,6 +295,7 @@ li {
   }
   .elfsight-app-ad2ba947-e85f-4d7a-b742-944f2061faa4{
     margin-bottom:  65px;
+    clear: both;
  ;
 
   }
