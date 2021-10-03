@@ -134,6 +134,8 @@ img {
   display: flex;
   justify-self: start;
 }
+
+
 @media screen and (max-width: 960px) {
   .home-grid,
   nav ul {
@@ -165,11 +167,12 @@ img {
   margin: 0;
 }
 
-
+/*
 #question {
   align-items: center;
   text-align: center;
 }
+*/
 .e-mail {
   margin: 5px;
 }
@@ -179,6 +182,12 @@ img {
   width: 36%;
   padding: 10px;
 }
+#mce-EMAIL{
+  width: 200px;
+  height: 30px;
+  padding: 10;
+}
+
 #subscribe-offers {
   margin-left: 10px;
 }
